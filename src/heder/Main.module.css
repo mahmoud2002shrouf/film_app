@@ -1,0 +1,90 @@
+.header {
+  background-color: rgb(188, 26, 26);
+  display: flex;
+  justify-content: end;
+}
+
+.actives {
+  background-color: rgba(240, 248, 255, 0.756);
+  border-radius: 7px;
+  text-align: center;
+  transition: 1s;
+  color: rgba(0, 0, 0, 0.745);
+}
+
+.button {
+  display: block;
+  font-family: 'Cairo', sans-serif;
+  text-decoration: none;
+  color: white;
+  text-size-adjust: 8;
+  text-shadow: 5px rgba(0, 0, 0, 0.697);
+  margin: 10px;
+  padding: 5px;
+  transition: 1s;
+  width: 135px;
+}
+.button:hover {
+  background-color: rgba(240, 248, 255, 0.756);
+  border-radius: 7px;
+  transition: 1s;
+  color: rgba(0, 0, 0, 0.745);
+}
+
+.icon {
+  /* text-align: center; */
+  margin-right: 10px;
+}
+.navicon {
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon1 {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+}
+.icon2 {
+  display: block;
+  margin: 10px;
+  margin-right: 10px;
+
+  width: 15px;
+  height: 15px;
+}
+.search:hover {
+  background-color: rgba(240, 248, 255, 0.756);
+
+  border-radius: 7px;
+  /* padding: 20px; */
+  transition: 1s;
+  color: rgba(0, 0, 0, 0.745);
+}
+.user:hover {
+  background-color: rgba(240, 248, 255, 0.756);
+  border-radius: 7px;
+  /* padding: 20px; */
+  transition: 1s;
+  color: rgba(0, 0, 0, 0.745);
+}
+.search {
+  width: 35px;
+  height: 35px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.user {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.ash {
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  margin-left: 150px;
+}

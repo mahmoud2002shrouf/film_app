@@ -1,0 +1,32 @@
+.para {
+  margin-top: 125%;
+}
+.fulldiv:hover {
+  opacity: 0.3;
+}
+.imgvidew {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  /* height: 100%; */
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  /* background-color: bisque; */
+  --h: 1.2em;
+  line-height: var(--h);
+  color: #0000;
+  overflow: hidden;
+  padding: 200px 120px;
+  text-shadow: 0 var(--_t, var(--h)) #fff, 0 0 var(--_c, #000);
+  background: linear-gradient(#c1104e6c 0 0) bottom/100% var(--_d, 0) no-repeat;
+  transition: 0.3s;
+}
+.imgvidew:hover {
+  opacity: 1;
+  --_d: 100%;
+  --_t: 0;
+  --_c: #0000;
+}

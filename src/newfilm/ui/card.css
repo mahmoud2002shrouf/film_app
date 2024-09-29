@@ -1,0 +1,26 @@
+.card {
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.727);
+  width: 230px;
+  height: 350px;
+  text-align: center;
+  border: none;
+  display: inline-block;
+  margin: 10px;
+  --h: 1.2em;
+  line-height: var(--h);
+  color: #0000;
+  overflow: hidden;
+  text-shadow: 0 var(--_t, var(--h)) #fff, 0 0 var(--_c, #000);
+  background: linear-gradient(rgba(151, 17, 17, 0.586) 0 0) bottom/100%
+    var(--_d, 0) no-repeat;
+  transition: 0.3s;
+}
+.card:hover {
+  --_d: 100%;
+  --_t: 0;
+  --_c: #0000;
+  /* background-color: rgba(250, 235, 215, 0.767);
+    transition: 1s;
+  box-shadow: inset auto auto black; */
+}

@@ -1,0 +1,5 @@
+.border {
+  background-color: rgba(246, 246, 246, 0.252);
+  box-shadow: inset 0px 100px 100px 100px 100px rgba(0, 0, 0, 0.503);
+  text-align: center;
+}

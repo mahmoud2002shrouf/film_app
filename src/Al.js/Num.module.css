@@ -1,0 +1,33 @@
+.div {
+  width: 120px;
+  height: 125px;
+  margin: 5px;
+  margin-top: 10px;
+  display: inline-block;
+  /* margin-left: 80px; */
+
+  border-radius: 7px;
+  border: none;
+  background-color: #696969;
+  color: white;
+  text-align: center;
+  align-items: center;
+  transition: 1s;
+}
+.div h3 {
+  font-size: 20px;
+  background-color: #505050;
+  width: 100%;
+  border-radius: 7px;
+  /* margin-top: 15%; */
+  padding: 10px;
+  height: 40%;
+}
+.fulldiv {
+  text-align: center;
+  align-items: center;
+}
+.div:hover {
+  background-color: #464040;
+  transition: 1s;
+}
